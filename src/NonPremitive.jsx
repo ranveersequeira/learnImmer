@@ -10,6 +10,7 @@ const ObjectExample = () => {
     //That is why any state management library use immutibulity to avoid this problem.
   };
 
+  console.log("Rendering Object Example");
   const setSameObject = () => {
     setPerson(person); // Same object reference, no re-render
   };

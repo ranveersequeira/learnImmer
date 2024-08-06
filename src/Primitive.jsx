@@ -8,9 +8,15 @@ const PrimitiveExample = () => {
     setCount(count + 1); // Changes the state, causes re-render
   };
 
+  console.log("Rendering Primitive Example");
+
   const setSameValue = () => {
     setCount(0); // Same value, but still causes re-render
+    console.log("Setting same value");
   };
+
+
+  //NOTE: Rendering vs Comit Phase of React 
 
   return (
     <div>

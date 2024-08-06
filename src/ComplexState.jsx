@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Button, Card, Typography } from 'antd';
-import { addTodo, toggleTodo, setFilter } from '../redux/actions'
+import {addTodo , setFilter, toggleTodo} from './redux/actions.js'
 
 
 
@@ -22,7 +22,7 @@ const ComplexReduxStateComponent = () => {
     if (filter === 'COMPLETED') return todo.completed;
     return true;
   });
-
+  console.log("Rendering Object Example");
   return (
     <Card className="w-full max-w-md mx-auto">
       <div>
