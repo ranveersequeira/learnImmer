@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-      {/* <TodoList/> */}
+      <TodoList/>
       {/* <ComplexReduxStateComponent /> */}
-      <PrimitiveExample />
+      {/* <PrimitiveExample /> */}
       {/* <ObjectExample /> */}
     </>
   )

@@ -3,12 +3,10 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import {thunk} from 'redux-thunk';
 import { produce } from 'immer';
 
-// Action types
 const ADD_TODO = 'ADD_TODO';
 const TOGGLE_TODO = 'TOGGLE_TODO';
 const SET_FILTER = 'SET_FILTER';
 
-// Initial state
 const initialState = {
   todos: [],
   filter: 'ALL'
